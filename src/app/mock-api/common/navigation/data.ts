@@ -39,13 +39,13 @@ export const defaultNavigation: FuseNavigationItem[] = [
         type: 'group',
         icon: 'heroicons_outline:home',
         children: [
-            {
-                id: 'apps.chat',
-                title: 'Chat',
-                type: 'basic',
-                icon: 'heroicons_outline:chat-bubble-bottom-center-text',
-                link: '/apps/chat',
-            },
+            // {
+            //     id: 'apps.chat',
+            //     title: 'Chat',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:chat-bubble-bottom-center-text',
+            //     link: '/apps/chat',
+            // },
             {
                 id: 'apps.contacts',
                 title: 'Contacts',
@@ -53,72 +53,72 @@ export const defaultNavigation: FuseNavigationItem[] = [
                 icon: 'heroicons_outline:user-group',
                 link: '/apps/contacts',
             },
-            {
-                id: 'apps.ecommerce',
-                title: 'ECommerce',
-                type: 'collapsable',
-                icon: 'heroicons_outline:shopping-cart',
-                children: [
-                    {
-                        id: 'apps.ecommerce.inventory',
-                        title: 'Inventory',
-                        type: 'basic',
-                        link: '/apps/ecommerce/inventory',
-                    },
-                ],
-            },
-            {
-                id: 'apps.file-manager',
-                title: 'File Manager',
-                type: 'basic',
-                icon: 'heroicons_outline:cloud',
-                link: '/apps/file-manager',
-            },
-            {
-                id: 'apps.help-center',
-                title: 'Help Center',
-                type: 'collapsable',
-                icon: 'heroicons_outline:information-circle',
-                link: '/apps/help-center',
-                children: [
-                    {
-                        id: 'apps.help-center.home',
-                        title: 'Home',
-                        type: 'basic',
-                        link: '/apps/help-center',
-                        exactMatch: true,
-                    },
-                    {
-                        id: 'apps.help-center.faqs',
-                        title: 'FAQs',
-                        type: 'basic',
-                        link: '/apps/help-center/faqs',
-                    },
-                    {
-                        id: 'apps.help-center.guides',
-                        title: 'Guides',
-                        type: 'basic',
-                        link: '/apps/help-center/guides',
-                    },
-                    {
-                        id: 'apps.help-center.support',
-                        title: 'Support',
-                        type: 'basic',
-                        link: '/apps/help-center/support',
-                    },
-                ],
-            },
-            {
-                id: 'apps.mailbox',
-                title: 'Mailbox',
-                type: 'basic',
-                icon: 'heroicons_outline:envelope',
-                link: '/apps/mailbox',
-                badge: {
-                    title: '27',
-                    classes: 'px-2 bg-pink-600 text-white rounded-full',
-                },
-            },
+            // {
+            //     id: 'apps.ecommerce',
+            //     title: 'ECommerce',
+            //     type: 'collapsable',
+            //     icon: 'heroicons_outline:shopping-cart',
+            //     children: [
+            //         {
+            //             id: 'apps.ecommerce.inventory',
+            //             title: 'Inventory',
+            //             type: 'basic',
+            //             link: '/apps/ecommerce/inventory',
+            //         },
+            //     ],
+            // },
+            // {
+            //     id: 'apps.file-manager',
+            //     title: 'File Manager',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:cloud',
+            //     link: '/apps/file-manager',
+            // },
+            // {
+            //     id: 'apps.help-center',
+            //     title: 'Help Center',
+            //     type: 'collapsable',
+            //     icon: 'heroicons_outline:information-circle',
+            //     link: '/apps/help-center',
+            //     children: [
+            //         {
+            //             id: 'apps.help-center.home',
+            //             title: 'Home',
+            //             type: 'basic',
+            //             link: '/apps/help-center',
+            //             exactMatch: true,
+            //         },
+            //         {
+            //             id: 'apps.help-center.faqs',
+            //             title: 'FAQs',
+            //             type: 'basic',
+            //             link: '/apps/help-center/faqs',
+            //         },
+            //         {
+            //             id: 'apps.help-center.guides',
+            //             title: 'Guides',
+            //             type: 'basic',
+            //             link: '/apps/help-center/guides',
+            //         },
+            //         {
+            //             id: 'apps.help-center.support',
+            //             title: 'Support',
+            //             type: 'basic',
+            //             link: '/apps/help-center/support',
+            //         },
+            //     ],
+            // },
+            // {
+            //     id: 'apps.mailbox',
+            //     title: 'Mailbox',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:envelope',
+            //     link: '/apps/mailbox',
+            //     badge: {
+            //         title: '27',
+            //         classes: 'px-2 bg-pink-600 text-white rounded-full',
+            //     },
+            // },
             {
                 id: 'apps.notes',
                 title: 'Notes',
@@ -126,13 +126,7 @@ export const defaultNavigation: FuseNavigationItem[] = [
                 icon: 'heroicons_outline:pencil-square',
                 link: '/apps/notes',
             },
-            {
-                id: 'apps.scrumboard',
-                title: 'Scrumboard',
-                type: 'basic',
-                icon: 'heroicons_outline:view-columns',
-                link: '/apps/scrumboard',
-            },
+
             {
                 id: 'apps.tasks',
                 title: 'Tasks',
@@ -559,13 +553,13 @@ export const defaultNavigation: FuseNavigationItem[] = [
         type: 'group',
         icon: 'heroicons_outline:rectangle-stack',
         children: [
-            {
-                id: 'user-interface.material-components',
-                title: 'Material Components',
-                type: 'basic',
-                icon: 'heroicons_outline:square-3-stack-3d',
-                link: '/ui/material-components',
-            },
+            // {
+            //     id: 'user-interface.material-components',
+            //     title: 'Material Components',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:square-3-stack-3d',
+            //     link: '/ui/material-components',
+            // },
             {
                 id: 'user-interface.fuse-components',
                 title: 'Fuse Components',
@@ -580,20 +574,20 @@ export const defaultNavigation: FuseNavigationItem[] = [
                 icon: 'heroicons_outline:square-3-stack-3d',
                 link: '/ui/other-components',
             },
-            {
-                id: 'user-interface.tailwindcss',
-                title: 'TailwindCSS',
-                type: 'basic',
-                icon: 'heroicons_outline:sparkles',
-                link: '/ui/tailwindcss',
-            },
-            {
-                id: 'user-interface.advanced-search',
-                title: 'Advanced Search',
-                type: 'basic',
-                icon: 'heroicons_outline:magnifying-glass-circle',
-                link: '/ui/advanced-search',
-            },
+            // {
+            //     id: 'user-interface.tailwindcss',
+            //     title: 'TailwindCSS',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:sparkles',
+            //     link: '/ui/tailwindcss',
+            // },
+            // {
+            //     id: 'user-interface.advanced-search',
+            //     title: 'Advanced Search',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:magnifying-glass-circle',
+            //     link: '/ui/advanced-search',
+            // },
             {
                 id: 'user-interface.animations',
                 title: 'Animations',
@@ -608,27 +602,15 @@ export const defaultNavigation: FuseNavigationItem[] = [
             //     icon: 'heroicons_outline:square-2-stack',
             //     link: '/ui/cards',
             // },
-            {
-                id: 'user-interface.colors',
-                title: 'Colors',
-                type: 'basic',
-                icon: 'heroicons_outline:swatch',
-                link: '/ui/colors',
-            },
-            {
-                id: 'user-interface.confirmation-dialog',
-                title: 'Confirmation Dialog',
-                type: 'basic',
-                icon: 'heroicons_outline:question-mark-circle',
-                link: '/ui/confirmation-dialog',
-            },
-            {
-                id: 'user-interface.datatable',
-                title: 'Datatable',
-                type: 'basic',
-                icon: 'heroicons_outline:table-cells',
-                link: '/ui/datatable',
-            },
+
+            // {
+            //     id: 'user-interface.confirmation-dialog',
+            //     title: 'Confirmation Dialog',
+            //     type: 'basic',
+            //     icon: 'heroicons_outline:question-mark-circle',
+            //     link: '/ui/confirmation-dialog',
+            // },
+
             {
                 id: 'user-interface.forms',
                 title: 'Forms',
@@ -817,13 +799,6 @@ export const defaultNavigation: FuseNavigationItem[] = [
                         ],
                     },
                 ],
-            },
-            {
-                id: 'user-interface.typography',
-                title: 'Typography',
-                type: 'basic',
-                icon: 'heroicons_outline:pencil',
-                link: '/ui/typography',
             },
         ],
     },

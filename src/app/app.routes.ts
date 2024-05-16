@@ -176,20 +176,6 @@ export const appRoutes: Route[] = [
                             ),
                     },
                     {
-                        path: 'help-center',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/apps/help-center/help-center.routes'
-                            ),
-                    },
-                    {
-                        path: 'mailbox',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/apps/mailbox/mailbox.routes'
-                            ),
-                    },
-                    {
                         path: 'notes',
                         loadChildren: () =>
                             import('app/modules/admin/apps/notes/notes.routes'),
@@ -267,15 +253,6 @@ export const appRoutes: Route[] = [
             {
                 path: 'ui',
                 children: [
-                    // Material Components
-                    {
-                        path: 'material-components',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/ui/material-components/material-components.routes'
-                            ),
-                    },
-
                     // Fuse Components
                     {
                         path: 'fuse-components',
@@ -294,60 +271,11 @@ export const appRoutes: Route[] = [
                             ),
                     },
 
-                    // Advanced Search
-                    {
-                        path: 'advanced-search',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/ui/advanced-search/advanced-search.routes'
-                            ),
-                    },
-
-                    // Animations
-                    {
-                        path: 'animations',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/ui/animations/animations.routes'
-                            ),
-                    },
-                    // Colors
-                    {
-                        path: 'colors',
-                        loadChildren: () =>
-                            import('app/modules/admin/ui/colors/colors.routes'),
-                    },
-
-                    // Confirmation Dialog
-                    {
-                        path: 'confirmation-dialog',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/ui/confirmation-dialog/confirmation-dialog.routes'
-                            ),
-                    },
-
-                    // Datatable
-                    {
-                        path: 'datatable',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/ui/datatable/datatable.routes'
-                            ),
-                    },
-
                     // Forms
                     {
                         path: 'forms',
                         loadChildren: () =>
                             import('app/modules/admin/ui/forms/forms.routes'),
-                    },
-
-                    // Icons
-                    {
-                        path: 'icons',
-                        loadChildren: () =>
-                            import('app/modules/admin/ui/icons/icons.routes'),
                     },
 
                     // Page Layouts
@@ -356,15 +284,6 @@ export const appRoutes: Route[] = [
                         loadChildren: () =>
                             import(
                                 'app/modules/admin/ui/page-layouts/page-layouts.routes'
-                            ),
-                    },
-
-                    // Typography
-                    {
-                        path: 'typography',
-                        loadChildren: () =>
-                            import(
-                                'app/modules/admin/ui/typography/typography.routes'
                             ),
                     },
                 ],
