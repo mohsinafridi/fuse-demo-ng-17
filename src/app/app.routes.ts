@@ -185,6 +185,13 @@ export const appRoutes: Route[] = [
                         loadChildren: () =>
                             import('app/modules/admin/apps/tasks/tasks.routes'),
                     },
+                    {
+                        path: 'mailbox',
+                        loadChildren: () =>
+                            import(
+                                'app/modules/admin/apps/mailbox/mailbox.routes'
+                            ),
+                    },
                 ],
             },
 

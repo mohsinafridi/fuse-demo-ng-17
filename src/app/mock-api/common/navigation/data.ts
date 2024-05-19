@@ -108,17 +108,17 @@ export const defaultNavigation: FuseNavigationItem[] = [
             //         },
             //     ],
             // },
-            // {
-            //     id: 'apps.mailbox',
-            //     title: 'Mailbox',
-            //     type: 'basic',
-            //     icon: 'heroicons_outline:envelope',
-            //     link: '/apps/mailbox',
-            //     badge: {
-            //         title: '27',
-            //         classes: 'px-2 bg-pink-600 text-white rounded-full',
-            //     },
-            // },
+            {
+                id: 'apps.mailbox',
+                title: 'Mailbox',
+                type: 'basic',
+                icon: 'heroicons_outline:envelope',
+                link: '/apps/mailbox',
+                badge: {
+                    title: '27',
+                    classes: 'px-2 bg-pink-600 text-white rounded-full',
+                },
+            },
             {
                 id: 'apps.notes',
                 title: 'Notes',
